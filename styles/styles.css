@@ -1,0 +1,35 @@
+.bg-black {
+    background-color: black;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1300px) {
+    .merchPreview {
+        width: 90vw;
+    }
+}
+
+.tiles .card {
+    display: inline-flex;
+    border-radius: 10px;
+    width: 350px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    position: relative;
+    margin: 15px;
+    flex: 1 0 33.4%;
+}
+
+.card-body {
+    padding-bottom: 0 !important;
+}
+
+.card .btn {
+    margin: 15px 20px 10px;
+}

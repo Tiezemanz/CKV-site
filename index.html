@@ -4,40 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CKV website</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">CZP1</a></li>
-            <li><a href="#">Bredaphoto</a></li>
-            <li><a href="#">Reflectie</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+        <div class="container">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="czp1.html">CZP1</a></li>
+                <li class="nav-item"><a class="nav-link" href="bredaphoto.html">Bredaphoto</a></li>
+                <li class="nav-item"><a class="nav-link" href="reflectie.html">Reflectie</a></li>
+            </ul>
+        </div>
     </nav>
-    
-    <div class="content">
-        <div class="card">
-            <h1>CZP1</h1>
-            <p>
-                kleine uitleg
-            </p>
+
+    <div class="tiles container">
+        <div class="card p-0">
+            <img src="./images/ties_leaning.png" alt="CZP1" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">CZP1</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut aut animi. Accusantium ab eveniet suscipit dolore nihil, quidem illum doloribus sit sed! Temporibus placeat, ex beatae inventore dolor minus.
+                </p>
+            </div>
+            <a href="czp1.html" class="btn btn-primary d-block">Lees meer..</a>
         </div>
         
-        <div class="card">
-            <h1>Bredaphoto</h1>
-            <p>
-                kleine uitleg
-            </p>
+        <div class="card p-0">
+            <img src="./images/ties_thumbsup.png" alt="Bredaphoto" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Bredaphoto</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut aut animi. Accusantium ab eveniet suscipit dolore nihil, quidem illum doloribus sit sed! Temporibus placeat, ex beatae inventore dolor minus.
+                </p>
+            </div>
+            <a href="bredaphoto.html" class="btn btn-primary d-block">Lees meer..</a>
         </div>
-        
-        <div class="card">
-            <h1>Reflectie</h1>
-            <p>
-                kleine uitleg
-            </p>
+
+        <div class="card p-0">
+            <img src="./images/ties_walkingpng.png" alt="Reflectie" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Reflectie</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut aut animi. Accusantium ab eveniet suscipit dolore nihil, quidem illum doloribus sit sed! Temporibus placeat, ex beatae inventore dolor minus.
+                </p>
+            </div>
+            <a href="reflectie.html" class="btn btn-primary d-block">Lees meer..</a>
         </div>
     </div>
 
