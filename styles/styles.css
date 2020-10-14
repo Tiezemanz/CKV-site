@@ -33,3 +33,7 @@
 .card .btn {
     margin: 15px 20px 10px;
 }
+
+.img-fluid {
+    height: 100% !important;
+}

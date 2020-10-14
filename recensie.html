@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CKV website</title>
+    <title>Recensie | Ties CKV</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/article.css">
+    <!-- JQuery -->
+    <script src="./scripts/jquery-3.5.1.slim.min.js"></script>
+    <!-- PopperJS -->
+    <script src="./scripts/popper.min.js"></script>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <script src="./scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,8 +21,17 @@
         <div class="container">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="czp1.html">CZP1</a></li>
-                <li class="nav-item"><a class="nav-link" href="bredaphoto.html">Bredaphoto</a></li>
+                <li class="nav-item"><a class="nav-link" href="czp1.html">CZP1</a></li>
+                <li class="nav-item dropdown active">
+                    <span class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Bredafoto
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item active" href="./recensie.html">Recensie</a>
+                        <a class="dropdown-item" href="./voorbereiding.html">Voorbereidingsopdracht</a>
+                    </div>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="reflectie.html">Reflectie</a></li>
             </ul>
         </div>
@@ -34,22 +44,22 @@
         </div>
 
         <div class="row">
-            <img src="./images/breda-photo-2020.png" alt="breda-photo" class="img-fluid float-right col-12 col-md-6">
-            <p class="mt-4 col-12 col-md-6">
+            <img src="./images/breda-photo-2020.png" alt="breda-photo" class="img-fluid col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Dit jaar moest ik weer voor CKV naar Breda foto toe. Ik ben naar het chasséveld geweest omdat hier erg
                 veel interessante fotografen tentoon worden gesteld. Ik heb hier vier fotografen in het bijzonder
                 bekeken.
             </p>
-            <p class="mt-4 col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Mijn favoriete foto’s die ik heb gezien waren die van Simon Norfolk & Klaus thymann.
                 Die foto’s gaan over het smelten van Rhôhne gletsjer en de wanhopige maatregelen die de mensheid neemt
                 om dit tegen te gaan. In de foto’s wordt mooi en volledig in beeld gebracht hoe de mensheid de strijd
                 tegen de natuur verliest. De maatregelen die worden genomen (namelijk het inpakken van de gletsjer met
                 een thermische deken) zijn niet effectief omdat de dekens uit elkaar vallen.
             </p>
-            <img src="./images/Shroud.png" alt="Shroud" class="img-fluid float-right col-12 col-md-6">
+            <img src="./images/Shroud.png" alt="Shroud" class="img-fluid col-12 col-md-6">
 
-            <p class="mt-4 col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 De foto’s zijn in een donker tijdstip gemaakt wat de foto een mooi effect geeft. Als deze foto in
                 zwart-wit was gemaakt had deze er ook erg saai uit gezien. Maar nu is het een wat blauwige foto.
                 <br> <br>
@@ -59,9 +69,9 @@
                 dekens die half kapot over de gletsjers hangen laten je nadenken over de ernst van de situatie en hoe
                 deze ervoor staat.
             </p>
-            <img src="./images/ties_leaning_2.png" alt="ties_leaning_2" class="img-fluid float-right col-12 col-md-6">
-            <img src="./images/ties_thumbsup.png" alt="ties_thumbsup" class="img-fluid float-right col-12 col-md-6">
-            <p class="mt-4 col-12 col-md-6">
+            <img src="./images/ties_leaning_2.png" alt="ties_leaning_2" class="img-fluid col-12 col-md-6">
+            <img src="./images/ties_thumbsup.png" alt="ties_thumbsup" class="img-fluid col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Ik vind ook dat Todd R. Darling mooie foto’s heeft weggezet. De foto’s gaan over de politieke situatie
                 in Hong Kong. In de foto’s zijn activisten en Hip Hop artiesten in beeld gebracht met teksten over hun
                 ervaringen en meningen. De fotograaf probeert dan ook de mensen in de foto en de bevolkingsgroepen die
@@ -78,7 +88,7 @@
 
             </p>
 
-            <p class="mt-4 col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Adreinne waheed en haar foto’s hebben als doel het stereotype over de zwarte cultuur te nuanceren. In de
                 media worden de zwarte bevolkingsgroepen vaak weggezet als slachtoffer of dader. Hier wilt de fotograaf
                 door middel van fotografie iets aan doen. Ze fotografeert feesten en demonstraties en probeert hier
@@ -94,9 +104,9 @@
                 demonstranten, licht en de levendige kleuren die de foto’s veel leven in blazen. Ook het verhaal achter
                 de foto’s zijn erg indrukwekkend.
             </p>
-            <img src="./images/ties_leaning.png" alt="ties_leaning" class="img-fluid float-right col-12 col-md-6">
-            <img src="./images/ties_walkingpng.png" alt="ties_walkingpng" class="img-fluid float-right col-12 col-md-6">
-            <p class="mt-4 col-12 col-md-6">
+            <img src="./images/ties_leaning.png" alt="ties_leaning" class="img-fluid col-12 col-md-6">
+            <img src="./images/ties_walkingpng.png" alt="ties_walkingpng" class="img-fluid col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Felipe Jácome probeert met zijn foto’s de economische situatie in Venezuela te schetsen door foto’s te
                 maken van mensen die het land ontvluchten. Hij trok met deze mensen mee om foto’s te maken. Die foto’s
                 heeft hij uitgeprint op Venezuelaans papiergeld wat vrijwel waardeloos is. Dit vind ik een erg mooi
@@ -104,8 +114,8 @@
                 combinatie met het feit dat het op geld wordt geprint straalt uit wat er gaande is. De foto’s laten goed
                 en volledig zien in wat voor situatie de vluchtelingen zitten.
             </p>
-            <img src="./images/venuzuela.jpg" alt="Venezuela" class="img-fluid float-right col-12 col-md-6">
-            <p class="mt-4 col-12 col-md-6">
+            <img src="./images/venuzuela.jpg" alt="Venezuela" class="img-fluid col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 De beelden in deze foto’s worden in het zwart wit laten zien. Dit omdat de foto’s dan wegvallen met de
                 biljetten waar het op staat geprint. Hierdoor lijken de foto’s zelf ook een biljet. Ik vind deze manier
                 van foto’s tentoonstellen erg uniek. Er is ook een foto waar kinderen in beeld worden gebracht met de
@@ -117,7 +127,7 @@
                 op biljetten vond ik erg uniek. Ook om deze reden had ik de fotograaf gekozen, omdat de manier van
                 tentoonstellen mij erg aansprak.
             </p>
-            <p class="mt-4 col-12 col-md-6">
+            <p class="col-12 col-md-6">
                 Ik vond de tentoonstelling erg mooi omdat het je introduceert aan diverse problemen in de wereld en het
                 laat je een mening vormen over de situatie. De manier van het in beeld brengen vond ik erg fascinerend
                 en ik raad het andere mensen aan om ook deze tentoonstelling te bezoeken.
@@ -126,15 +136,29 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <footer>
+        <div class="col-12 bg-black py-4 px-5">
+            <div class="col-10  mx-auto row">
+                <span class="col-6">
+                    <a href="./bronvermeldingen.html" class="text-light float-left">Bronvermeldingen</a>
+                </span>
+                <span class="col-6">
+                </span>
+            </div>
+            <div class="col-10 mx-auto row mt-3">
+                <span class="col-6">
+                    <p class="text-light float-left"> Schooljaar 2020-2021</p>
+                </span>
+                <span class="col-6"></span>
+            </div>
+        </div>
+        
+        <div class="col-12" style="background-color: #0a0a0a;">
+            <div class="row py-3">
+                <small class="mx-auto text-white">Ties van Loon</small>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
